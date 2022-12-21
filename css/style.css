@@ -117,7 +117,7 @@ body {
   background-color: #fff;
   padding: 40px;
   box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0, 05);
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .circle-icon {
@@ -125,19 +125,19 @@ body {
   height: 70px;
   background-color: var(--pr-color);
   border-radius: 50%;
-  transition: all .1s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .card-layanan h3 {
   color: var(--pr-color);
   font-size: 24px;
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .card-layanan p {
   color: #000;
   font-size: 14px;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 /* Hover */
@@ -148,13 +148,12 @@ body {
   background: linear-gradient(160deg, var(--pr-color), #000);
   padding: 40px;
   box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0, 05);
-  transition: all .2s ease-in;
-  
+  transition: all 0.2s ease-in;
 }
 
 .card-layanan:hover .circle-icon {
   background-color: #fff;
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .circle-icon:hover {
@@ -162,17 +161,96 @@ body {
   height: 70px;
   background-color: var(--pr-color);
   border-radius: 50%;
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .card-layanan:hover h3 {
   color: #fff;
   font-size: 24px;
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .card-layanan:hover p {
   color: #fff;
   font-size: 14px;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+/* Search Section */
+#search {
+  background-image: url(../assets/img/search.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+
+#search p {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+
+.input-cari {
+  height: 88px;
+}
+
+.input-cari:focus {
+  border: none;
+}
+
+.input-cari .button-secondary {
+  width: 200px;
+  height: 88px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--pr-color);
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 0 0 0 10px;
+}
+
+.input-cari .button-primary {
+height: 88px;
+background-color: var(--pr-color);
+color: #fff;
+border: none;
+font-size: 36px;
+font-weight: 500;
+border-radius: 0 10px 0 10px;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 0 0;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--pr-color);
+  border-radius: 0 9px 0 0;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link {
+  color: #000;
+  border: none;
+  
 }
