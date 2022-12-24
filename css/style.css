@@ -101,7 +101,7 @@ body {
 
 #layanan h2 {
   font-size: 48px;
- font-weight: 600;
+  font-weight: 600;
   color: var(--pr-color);
 }
 
@@ -224,13 +224,13 @@ body {
 }
 
 .input-cari .button-primary {
-height: 88px;
-background-color: var(--pr-color);
-color: #fff;
-border: none;
-font-size: 36px;
-font-weight: 500;
-border-radius: 0 10px 0 10px;
+  height: 88px;
+  background-color: var(--pr-color);
+  color: #fff;
+  border: none;
+  font-size: 36px;
+  font-weight: 500;
+  border-radius: 0 10px 0 10px;
 }
 
 .nav-tabs {
@@ -252,7 +252,6 @@ border-radius: 0 10px 0 10px;
 .nav-tabs .nav-link {
   color: #000;
   border: none;
-  
 }
 
 /* Section Rekomendasi */
@@ -273,7 +272,7 @@ border-radius: 0 10px 0 10px;
   color: #000;
   font-weight: 600;
   font-size: 24px;
-  line-height: .8rem;
+  line-height: 0.8rem;
 }
 
 .card-body p {
@@ -283,19 +282,19 @@ border-radius: 0 10px 0 10px;
 }
 
 .card:hover {
-  background: linear-gradient(170deg, var(--pr-color), #007245,  #007245, #000);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
-  transition: all ease-in-out .3s;
+  background: linear-gradient(170deg, var(--pr-color), #007245, #007245, #000);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transition: all ease-in-out 0.3s;
 }
 
 .card:hover .card-body h4 {
   color: #fff;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .card:hover .card-body p {
   color: #fff;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .card-fasilitas {
@@ -363,11 +362,11 @@ border-radius: 0 10px 0 10px;
 .card-fitur .overlay {
   background-color: rgba(0, 0, 0, 0);
   opacity: 0;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .card-fitur .overlay:hover {
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, 0.6);
   opacity: 1;
 }
 
@@ -386,4 +385,131 @@ border-radius: 0 10px 0 10px;
   height: 61px;
   background-color: var(--pr-color);
   padding: 0;
+}
+
+/* Contact Section */
+#contact {
+  background-image: url(/assets/img/bg-contact.png);
+  margin-top: 158px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact .overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#contact .container {
+  padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #ffffff;
+  width: 441px;
+}
+
+#contact h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin: 19px 0 14px 0;
+}
+
+.kontak a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 18px;
+  width: 332px;
+  display: inline-block;
+}
+
+.linkrumah {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.card-contact {
+  width: 100%;
+  height: 445px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 52px 48px;
+}
+
+.card-contact h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #00985b;
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.form-control {
+  height: 75px !important;
+  background: #c4c4c4;
+  border-radius: 0;
+}
+
+.form-floating label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #717171;
+}
+
+.button-contact {
+  width: 100%;
+  height: 75px;
+  background: #00985b;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 270px;
+  background: #000000;
+}
+
+.copyright {
+  bottom: 1%;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+ 
+}
+
+footer a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  text-decoration: none;
 }
